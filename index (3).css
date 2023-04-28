@@ -1,0 +1,328 @@
+.layer1{
+	color: rgb(0, 1, 1);
+   background-color: rgb(255, 254, 254);
+   border: 1px blue dashed;
+   width: 1625px; height: 180px;
+   text-align: center;
+   margin: 0px auto;
+   font-size: 40px;
+   padding: w0px 15px 16px 15px 16px;
+   font-weight: bold;
+   border-radius: 20px;
+	   }
+	*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.name_banner{
+   font-size: 60px;
+   font-weight: bold;
+   color: rgb(2, 2, 2);
+}
+.header{
+   background-color: rgb(162, 185, 162);
+   width: 98%;
+   text-align: center;
+   margin: 15px 10px 15px 10px;
+}
+.hl1{
+   color: azure;
+   background-color: crimson;
+   border: 1px blue dashed;
+   width: 750px; height: 60px;
+   text-align: center;
+   margin: 0px auto;
+   font-size: 20px;
+   padding: w0px 15px 16px 15px 16px;
+   font-weight: bold;
+   border-radius: 20px;
+}
+.root>li{
+   list-style: none;
+   float: left;
+   position: relative;
+   display: block;
+   margin: 0px auto;
+}
+.root>li>a{
+   text-decoration: none;
+   color: rgb(1, 9, 9);
+   padding: 0px 15px 0px 15px;
+   line-height: 50px;
+   display: block;
+}
+.menu_kk{
+   width: 1500px;
+   height: 50px;
+   background-color: rgb(146, 143, 150);
+   margin: 0px auto;
+}
+.root>li>a:hover{background-color: blueviolet;
+   color: rgb(120, 133, 108);
+   transform: ease-in 0.40;
+   font-weight: bold;
+}
+.submenu{
+   width: 200px;
+   background-color: cornflowerblue;
+   min-height: 80px;
+   display: none;
+   position: absolute;
+}
+.submenu>li{list-style: none;}
+.submenu>li>a{
+   text-transform: none;
+   text-decoration: none;
+   color: rgb(255, 247, 14);
+   border: 1px solid #080808;
+   line-height: 40px;
+   text-align: 16px;
+}
+.root>li:hover .submenu{
+display: block;
+background-color: #050505;
+color: rgb(249, 249, 249);
+transform: ease-im 0,40s; 
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+.name_banner{
+   font-size: 70px;
+   font-weight: bold;
+   color: rgb(2, 2, 2);
+}
+.header{
+   background-color: rgb(112, 129, 112);
+   width: 98%;
+   text-align: center;
+   margin: 15px 10px 15px 10px;
+}
+.hl1{
+   color: azure;
+   background-color: crimson;
+   border: 1px blue dashed;
+   width: 1000px; height: 60px;
+   text-align: center;
+   margin: 0px auto;
+   font-size: 23px;
+   padding: 0px 15px 16px 15px 16px;
+   font-weight: bold;
+   border-radius: 20px;
+   
+}
+.root>li{
+   list-style: none;
+   float: left;
+   position: relative;
+   display: block;
+   margin: 2px auto;
+}
+.root>li>a{
+   text-decoration: none;
+   color: rgb(1, 9, 9);
+   padding: 0px 15px 0px 15px;
+   line-height: 50px;
+   display: block;
+}
+.menu_kk{
+   width: 98%;
+height: 50px;
+   background-color: rgb(238, 0, 0);
+   margin: 0px auto;
+}
+.root>li>a:hover{background-color: blueviolet;
+   color: rgb(137, 230, 45);
+   transform: ease-in 0.40;
+   font-weight: bold;
+}
+.submenu{
+   width: 200px;
+   background-color: cornflowerblue;
+   min-height: 80px;
+   display: none;
+   position: absolute;
+}
+.submenu>li{list-style: none;}
+.submenu>li>a{
+   text-transform: none;
+   text-decoration: none;
+   color: rgb(255, 247, 14);
+   border: 1px solid #080808;
+   line-height: 40px;
+   text-align: 16px;
+}
+.root>li:hover .submenu{
+display: block;
+background-color: #050505;
+color: rgb(249, 249, 249);
+transform: ease-im 0,40s;
+
+}
+
+.submenu>li>a:hover{
+   background-color: rgb(12, 15, 12);
+   color: rgb(245, 247, 245);
+   transform:  ease-im 0,40s;
+}
+.bang {
+   border: 1px solid #ccc;
+   width: 100%;
+   margin: 0px auto;
+}
+td{width: 25%; border: 1px solid #ccc;
+   text-align: center;
+margin: opx auto;}
+.sp1{width: 400px;height: 350px;border: 0px red solid;
+   align-items: center;}
+.giacu{background-color: yellow; font-weight: bold;}
+s{color: red;}
+i{color: red;font-weight: bold; 18px}
+.cdc{font-size: 100px;
+   font-weight: bold;
+   color: rgb(2, 2, 2);
+}
+.card-client {
+ background: #c96f1c;
+ width: 13rem;
+ padding-top: 25px;
+ padding-bottom: 25px;
+ padding-left: 20px;
+ padding-right: 20px;
+ border: 4px solid #be4d18;
+ box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+ border-radius: 10px;
+ text-align: center;
+ color: #fff;
+ font-family: "Poppins", sans-serif;
+ transition: all 0.3s ease;
+ 
+}
+
+.card-client:hover {
+ transform: translateY(-10px);
+}
+
+.user-picture {
+ overflow: hidden;
+ object-fit: cover;
+ width: 5rem;
+ height: 5rem;
+ border: 4px solid #bd3d1d;
+ border-radius: 999px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+
+.user-picture svg {
+ width: 2.5rem;
+ fill: currentColor;
+}
+
+.name-client {
+ margin: 0;
+ margin-top: 20px;
+ font-weight: 600;
+ font-size: 18px;
+}
+
+.name-client span {
+ display: block;
+ font-weight: 200;
+ font-size: 16px;
+}
+
+.social-media:before {
+ content: " ";
+ display: block;
+ width: 100%;
+ height: 2px;
+ margin: 20px 0;
+ background: #7cdacc;
+}
+
+.social-media a {
+ position: relative;
+ margin-right: 15px;
+ text-decoration: none;
+ color: inherit;
+}
+
+.social-media a:last-child {
+ margin-right: 0;
+}
+
+.social-media a svg {
+ width: 1.1rem;
+ fill: currentColor;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+ background: #4f05b1;
+ display: block;
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ padding: 0.5rem 0.4rem;
+ border-radius: 5px;
+ font-size: 0.8rem;
+ font-weight: 1000;
+ opacity: 0;
+ pointer-events: none;
+ transform: translate(-50%, -90%);
+ transition: all 0.2s ease;
+ z-index: 1;
+}
+
+.tooltip-social:after {
+ content: " ";
+ position: absolute;
+ bottom: 1px;
+ left: 50%;
+ border: solid;
+border-width: 10px 10px 0 10px;
+ border-color: transparent;
+ transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+ border-top-color: #262626;
+}
+
+.social-media a:hover .tooltip-social {
+ opacity: 1;
+ transform: translate(-50%, -130%);
+}
+.grad{
+		   position:absolute;
+		   top:0;
+		   bottom:0;
+		   left:0;
+		   right:0;
+		   background:linear-gradient(#dead45,#e38ab8);
+	   }
+	   .grad:after{
+		   display:block;
+		   position:absolute;
+		   top:0;
+		   bottom:0;
+		   left:0;
+		   right:0;
+		   content:"";
+		   background:linear-gradient(#54c9c2,#b0dea6);
+		   animation:fade 10s ease-in-out infinite alternate;
+	   @keyframes fade{
+			  0% {
+				   opacity:0;    
+			   }
+			   100%
+			   {
+				   opacity:1;
+			   }
+		   }
+	   }
